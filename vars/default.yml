@@ -1,3 +1,8 @@
-http_host: "mydomain.local"
-http_conf: "my_domain.conf"
+---
+ansible_connection: "ssh"
+ansible_ssh_user: "ansible"
+app_user: "ansible"
+http_host: "myserver"
+http_conf: "myserver.conf"
 http_port: "80"
+disable_default: true
